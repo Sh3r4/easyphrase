@@ -3,4 +3,4 @@
 .tscache/
 node_modules/
 dist/
-cli/*.js.map
+cli/
