@@ -1,0 +1,4 @@
+.vscode/
+.tscache/
+tsconfig.json
+/cli/easyphrase.js.map

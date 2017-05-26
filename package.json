@@ -1,0 +1,32 @@
+{
+  "name": "easyphrase",
+  "version": "0.0.2-0",
+  "description": "Password Generator based on the EFF dice-based passphrase generator.",
+  "main": "cli",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "grunt": "^1.0.1",
+    "grunt-concat": "^0.1.6",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.0",
+    "grunt-ts": "^6.0.0-beta.14",
+    "typescript": "^2.3.2"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimmsIO/easyphrase"
+  },
+  "author": "Morgan Timms",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "easyphrase": "cli/easyphrase.js"
+  }
+}

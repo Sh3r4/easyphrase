@@ -1,0 +1,6 @@
+*.js.map
+.vscode/
+.tscache/
+node_modules/
+dist/
+cli/*.js.map
