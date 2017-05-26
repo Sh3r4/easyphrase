@@ -24,7 +24,7 @@ Easyphrase uses a modified version of the [EFF's dice passphrase generator][eff]
 
 As an opt-out function, easyphrase will insert a random numeric character at a random index in the generated passphrase.
 
-Easyphrase is also capable of generating a list or passphrases of any length.
+Easyphrase is also capable of generating passphrases in a list of any length.
 
 ## Generator Arguments
 
