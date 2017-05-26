@@ -2,11 +2,11 @@
 
 Get it as a cli tool via NPM:
 
-'npm install easyphrase -g'
+`npm install -g easyphrase`
 
 Or get it the JS to add the generator to your website by cloning this repo or via NPM:
 
-'npm install easyphrase'
+`npm install easyphrase`
 
 Or [check it out at NPM][npm]
 
