@@ -6,15 +6,15 @@ function appendOutput(line: string) {
     try {
 
         node = Object.prototype.toString.call(global.process) === '[object process]'
-    } catch(e) {}
+    } catch (e) { }
 
     if (node) {
         console.log(line);
     } else {
         if (epWebConsole) {
             webConsoleOutput = webConsoleOutput
-                    + '\n'
-                    + line;
+                + '\n'
+                + line;
             epWebConsole.innerText = webConsoleOutput;
 
             // Make it console-y

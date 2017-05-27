@@ -8,7 +8,11 @@ Or get it the JS to add the generator to your website by cloning this repo or vi
 
 `npm install easyphrase`
 
-Or [check it out at NPM][npm]
+You can find the repo at Github: [https://github.com/TimmsIO/easyphrase][gh]
+
+The NPM package is here: [https://www.npmjs.com/package/easyphrase][npm]
+
+There is a live demo here: [http://timms.io/utilities/easyphrase][epld]
 
 ## Mission Statement
 
@@ -57,6 +61,40 @@ treadmillsubsonicstereodirectlytacticsimpeding
 unitscruffypungentstingilyengagingwalrus
 ```
 
+## The Web Interface
+
+easyphrase can be added to a webpage in one of two ways:
+
+### The easy but ugly way
+
+I am not a web designer. Adding easyphrase to your website this way will prove that.
+
+All you have to do is add this element to your webpage and easyphrase will build all the fields and form elements it needs to run:
+
+``` html
+<div id="easyphrase"></div>
+```
+
+### The slightly harder but prettier way
+
+All of the DOM element ids that easyphrase searches for can be overridden. If an element with the correct id exists on your page, easyphrase will bind to it and use it instead of generating a new one.
+
+If easyphrase cannot find any of the DOM element ids it needs, it will generate the default one in the `id="easyphrase"` element.
+ Effectively, this means you can override as many or as few of the defaults as you want.
+
+Here are the IDs to override and their purpose:
+
+| ID                               | Purpose                                                                     |
+|----------------------------------|-----------------------------------------------------------------------------|
+| id="easyphrase-output-element"   | Output of the generator function will be added to this element's .innerText |
+| id="easyphrase-generate-button"  | Triggers the generator function                                             |
+| id="easyphrase-copy-button"      | Copies the single last generated password to clipboard                      |
+| id="easyphrase-silent-checkbox"  | Turn off/on verbose mode                                                    |
+| id="easyphrase-lessSec-checkbox" | Turn off/on insertion of a random number into the phrase                    |
+| id="easyphrase-quantity-input"   | Specify a numeric quantity of passphrases to generate                       |
+
+
+
 ## Thanks
 
 The underpinning method used to generate passwords is based on the [EFF's dice passphrase generator][eff].
@@ -98,5 +136,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+[gh]: https://github.com/TimmsIO/easyphrase "easyphrase repo on GitHub"
 [eff]: https://www.eff.org/dice "Electronic Frontiers Foundation Dice Based Password Generator"
 [npm]: https://www.npmjs.com/package/easyphrase "easyphrase NPM package page"
+[epld]: http://timms.io/utilities/easyphrase "easyphrase live demo"
