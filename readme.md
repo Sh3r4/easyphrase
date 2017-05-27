@@ -63,7 +63,9 @@ unitscruffypungentstingilyengagingwalrus
 
 ## The Web Interface
 
-easyphrase can be added to a webpage in one of two ways:
+After installing via npm, a minified js file is immediately available in the easyphrase/dist folder.
+
+Easyphrase can then be added to a webpage in one of two ways:
 
 ### The easy but ugly way
 
