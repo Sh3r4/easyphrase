@@ -1,6 +1,6 @@
 {
   "name": "easyphrase",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Password Generator based on the EFF dice-based passphrase generator.",
   "main": "cli/easyphrase.js",
   "dependencies": {
